@@ -29,7 +29,7 @@ The project is designed as a recruiter-ready portfolio to showcase analytical re
 
 - **Final Excel Analysis File**  
   Includes data cleaning, formulas, pivot tables, aggregation, and dashboard  
-  [Download Excel](https://github.com/hayumuti-data-analytics/student-learning-outcomes-analysis/blob/38ab1830896eb248592dfea7d528e66fbe372368/Project%20Final.xlsx)
+[Download Excel](https://raw.githubusercontent.com/hayumuti-data-analytics/student-learning-outcomes-analysis/main/Project%20Final.xlsx)
 
 - **Insight Sheet**  
   Summary of key analytical findings to support academic decision-making
