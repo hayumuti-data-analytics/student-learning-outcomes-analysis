@@ -23,9 +23,17 @@ The project is designed as a recruiter-ready portfolio to showcase analytical re
 5. Insight synthesis for academic decision-making  
 
 ## Deliverables
-- Raw assessment data (PDF)  
-- Processed Excel file with formulas, pivots, and dashboard  
-- Insight sheet summarizing key findings  
+- **Raw Assessment Dataset (PDF)**  
+  Raw assessment data of 27 undergraduate students  
+  [Download PDF](Raw_Data_Student_Assessment_27_Students.pdf)
+
+- **Final Excel Analysis File**  
+  Includes data cleaning, formulas, pivot tables, aggregation, and dashboard  
+  [Download Excel](https://github.com/hayumuti-data-analytics/student-learning-outcomes-analysis/blob/38ab1830896eb248592dfea7d528e66fbe372368/Project%20Final.xlsx)
+
+- **Insight Sheet**  
+  Summary of key analytical findings to support academic decision-making
+
 
 ## Key Competencies Demonstrated
 - Educational data analysis  
