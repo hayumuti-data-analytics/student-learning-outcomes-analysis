@@ -3,182 +3,156 @@
 <head>
   <meta charset="UTF-8">
   <title>Student Learning Outcomes Analysis</title>
-<style>
-body {
-  font-family: "Segoe UI", Roboto, Arial, sans-serif;
-  background: linear-gradient(135deg, #eef2f7, #f8fafc);
-  margin: 0;
-  padding: 0;
-}
 
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: linear-gradient(180deg, #f4f7fb, #eef2f7);
+      margin: 0;
+      padding: 0;
+      color: #1f2937;
+    }
 
-.container {
-  .hero {
-  margin-bottom: 48px;
-}
+    .page {
+      max-width: 960px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
 
-.hero h1 {
-  font-size: 36px;
-  margin-bottom: 8px;
-}
+    .card {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+    }
 
-.subtitle {
-  color: #5a6b7b;
-  font-size: 16px;
-  margin-bottom: 16px;
-}
+    h1 {
+      font-size: 32px;
+      margin-bottom: 8px;
+      color: #0f172a;
+    }
 
-.meta {
-  margin-top: 12px;
-}
+    .meta {
+      margin-bottom: 32px;
+      color: #475569;
+      font-size: 15px;
+    }
 
-  max-width: 980px;
-  margin: 60px auto;
-  background: #ffffff;
-  padding: 56px;
-  border-radius: 14px;
-  box-shadow: 
-    0 10px 30px rgba(0,0,0,0.08),
-    0 2px 8px rgba(0,0,0,0.04);
-}
+    h2 {
+      margin-top: 40px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #e5e7eb;
+      color: #1e293b;
+    }
 
+    p {
+      line-height: 1.7;
+      color: #334155;
+    }
 
-h1 {
-  font-size: 34px;
-  color: #0f172a;
-  margin-bottom: 6px;
-}
+    ul {
+      padding-left: 22px;
+    }
 
-.subtitle {
-  color: #475569;
-  font-size: 16px;
-  margin-bottom: 36px;
-}
+    li {
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
 
-h2 {
-  margin-top: 42px;
-  font-size: 22px;
-  color: #1e293b;
-  border-bottom: 2px solid #e5e7eb;
-  padding-bottom: 8px;
-}
+    a {
+      color: #2563eb;
+      font-weight: 600;
+      text-decoration: none;
+    }
 
-p {
-  color: #334155;
-  line-height: 1.7;
-}
+    a:hover {
+      text-decoration: underline;
+    }
 
-ul {
-  margin-left: 20px;
-}
+    .skills li {
+      list-style: none;
+      margin-bottom: 12px;
+    }
 
-li {
-  margin-bottom: 8px;
-}
+    .badge {
+      display: inline-block;
+      background: #2563eb;
+      color: #ffffff;
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
 
-a {
-  color: #2563eb;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.badges span {
-  display: inline-block;
-  background: #eff6ff;
-  color: #1d4ed8;
-  padding: 6px 12px;
-  border-radius: 999px;
-  font-size: 13px;
-  margin: 6px 8px 0 0;
-}
-
-.highlight {
-  background: #f8fafc;
-  border-left: 5px solid #2563eb;
-  padding: 16px 20px;
-  margin: 24px 0;
-  border-radius: 6px;
-}
-</style>
-
+    .insight-box {
+      background: #f1f5f9;
+      border-left: 6px solid #2563eb;
+      padding: 24px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 
 <body>
-  <div class="container">
+  <div class="page">
+    <div class="card">
 
-   <div class="hero">
-  <h1>Student Learning Outcomes Analysis</h1>
-  <p class="subtitle">
-    Educational Data Analytics Portfolio
-  </p>
-  <div class="meta">
-    <span class="badge">Excel Analysis</span>
-    <span class="badge">Education</span>
-    <span class="badge">Decision Support</span>
-  </div>
-</div>
+      <h1>Student Learning Outcomes Analysis</h1>
+      <div class="meta">
+        <strong>Role:</strong> Educational Data Analyst<br>
+        <strong>Context:</strong> Excel-based portfolio project for academic decision-making
+      </div>
 
+      <h2>Project Overview</h2>
+      <p>
+        This project demonstrates an end-to-end Excel-based educational data analysis workflow,
+        transforming raw student assessment data into actionable academic insights for institutional
+        decision-making.
+      </p>
 
-    <h2>Project Overview</h2>
-    <p>
-      This project demonstrates an end-to-end Excel-based educational data analysis workflow,
-      from raw assessment data to actionable academic insights.
-    </p>
+      <h2>Research Questions</h2>
+      <ul>
+        <li>How do students perform across different assessment components?</li>
+        <li>What is the overall distribution of student achievement?</li>
+        <li>Which components contribute most to final learning outcomes?</li>
+      </ul>
 
-    <h2>Research Questions</h2>
-    <ul>
-      <li>How do students perform across different assessment components?</li>
-      <li>What is the overall distribution of student achievement?</li>
-      <li>Which components contribute most to final learning outcomes?</li>
-    </ul>
+      <h2>Deliverables</h2>
+      <ul>
+        <li>
+          Raw Assessment Dataset (PDF):
+          <a href="https://raw.githubusercontent.com/hayumuti-data-analytics/student-learning-outcomes-analysis/main/Raw_Data_Student_Assessment_27_Students.pdf" target="_blank">
+            Download
+          </a>
+        </li>
+        <li>
+          Final Excel Analysis File:
+          <a href="https://raw.githubusercontent.com/hayumuti-data-analytics/student-learning-outcomes-analysis/main/Project%20Final.xlsx" target="_blank">
+            Download
+          </a>
+        </li>
+      </ul>
 
-    <h2>Deliverables</h2>
-    <ul>
-      <li>
-        Raw Assessment Dataset (PDF):
-        <a href="https://github.com/hayumuti-data-analytics/student-learning-outcomes-analysis/raw/main/Raw_Data_Student_Assessment_27_Students.pdf">
-          Download
-        </a>
-      </li>
-      <li>
-        Final Excel Analysis File:
-        <a href="https://github.com/hayumuti-data-analytics/student-learning-outcomes-analysis/raw/main/Project%20Final.xlsx">
-          Download
-        </a>
-      </li>
-    </ul>
+      <h2>Key Skills Demonstrated</h2>
+      <ul class="skills">
+        <li><span class="badge">Analysis</span> Educational data analysis for learning outcomes evaluation</li>
+        <li><span class="badge">Excel</span> Advanced Excel formulas and logical modeling</li>
+        <li><span class="badge">Aggregation</span> Pivot tables for performance summarization</li>
+        <li><span class="badge">Visualization</span> Dashboard design for academic decision support</li>
+      </ul>
 
-    <h2>Key Skills Demonstrated</h2>
-<ul>
-  <li><span class="badge">Analysis</span> Educational data analysis for learning outcomes evaluation</li>
-  <li><span class="badge">Excel</span> Advanced Excel formulas and logical modeling</li>
-  <li><span class="badge">Aggregation</span> Pivot tables for performance summarization</li>
-  <li><span class="badge">Visualization</span> Dashboard design for academic decision support</li>
-</ul>
+      <h2>Key Insights</h2>
+      <div class="insight-box">
+        <ul>
+          <li>Final exam scores show the strongest contribution to overall student achievement.</li>
+          <li>Score distribution indicates moderate variance, suggesting relatively consistent learning outcomes.</li>
+          <li>Strong assignment performance correlates with stable final grades, highlighting continuous assessment.</li>
+        </ul>
+      </div>
 
-   <h2>Key Insights</h2>
-
-<div class="highlight">
-  <p><strong>Executive Summary:</strong></p>
-  <ul>
-    <li>Final exam scores show the strongest contribution to overall student achievement compared to quizzes and assignments.</li>
-    <li>Score distribution indicates moderate variance, suggesting relatively consistent learning outcomes across students.</li>
-    <li>Strong assignment performance correlates with stable final grades, highlighting the role of continuous assessment.</li>
-  </ul>
-</div>
-
-
-    <ul>
-      <li>Educational data analysis</li>
-      <li>Excel formulas and logical modeling</li>
-      <li>Pivot tables and aggregation</li>
-      <li>Dashboard design for decision support</li>
-    </ul>
-
+    </div>
   </div>
 </body>
 </html>
